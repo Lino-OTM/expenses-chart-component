@@ -1,0 +1,64 @@
+.top-section {
+  padding: 0.4rem 3.8rem 0.7rem 3.3rem;
+  border-radius: 2rem;
+  margin-bottom: 2.2rem;
+
+  &__logo {
+    width: 7.3rem;
+  }
+
+  &__balance {
+    font-size: 1.77rem;
+    line-height: 3.8rem;
+
+    &-amount {
+      font-size: 3.2rem;
+    }
+  }
+}
+
+.bars-section {
+  padding: 1.5rem 3.2rem 2rem;
+  border-radius: 1.8rem;
+
+  &__title {
+    font-size: 3.22rem;
+    margin-left: 0.9rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &__bar-wrapper {
+    width: 4.9rem;
+  }
+  &__day {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  &__bottom-line {
+    margin-top: 1rem;
+  }
+}
+
+.bottom-section {
+  padding: 0.2rem 1rem;
+
+  &__total-amount {
+    font-size: 1.74rem;
+    line-height: 4.1rem;
+  }
+
+  &__amount {
+    font-size: 4.8rem;
+  }
+
+  &__percentage {
+    font-size: 1.8rem;
+    margin-top: 5.7rem;
+    line-height: 2.3rem;
+  }
+
+  &__month-info {
+    font-size: 1.8rem;
+  }
+}

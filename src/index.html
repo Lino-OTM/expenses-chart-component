@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <link
+      rel="stylesheet"
+      href="./scss/media-queries.scss"
+      media="(min-width: 600px)"
+    />
+  </head>
+  <body>
+    <main class="main-container">
+      <section class="top-section">
+        <p class="top-section__balance">
+          My balance
+          <br />
+          <span class="top-section__balance-amount">$921.48</span>
+        </p>
+        <img class="top-section__logo" src="./assets/images/logo.svg" />
+      </section>
+
+      <section class="bars-section">
+        <h1 class="bars-section__title">Spending - Last 7 days</h1>
+        <div class="bars-section__bars-wrapper">
+          <!-- Ejemplo de una barra -->
+
+          <!-- <div class="bars-section__bar-wrapper"> -->
+          <!-- <p class="bars-section__price">price</p> -->
+          <!-- <div class="bars-section__progress-bar"></div> -->
+          <!-- <p class="bars-section__day">mon</p> -->
+          <!-- </div> -->
+        </div>
+
+        <hr class="bars-section__bottom-line" />
+        <section class="bottom-section">
+          <p class="bottom-section__total-amount">
+            Total this month
+            <br />
+            <span class="bottom-section__amount">$478.33</span>
+          </p>
+
+          <p class="bottom-section__percentage">
+            +2.4%
+            <br />
+            <span class="bottom-section__month-info">from last month</span>
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ivan</a>.
+    </footer>
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>

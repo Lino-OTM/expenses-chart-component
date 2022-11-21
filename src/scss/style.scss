@@ -1,0 +1,153 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import "./variables";
+
+html {
+  font-size: 62.5%;
+  font-family: $font;
+}
+
+body {
+  background-color: $cream;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  margin-top: 6.6rem;
+  max-width: 54rem;
+  margin-bottom: 2rem;
+}
+
+.top-section {
+  background-color: $softRed;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 2.4rem 0.6rem 2.2rem;
+  margin-bottom: 1.7rem;
+  color: $veryPaleOrange;
+
+  &__logo {
+    width: 6rem;
+  }
+
+  &__balance {
+    font-size: 1.51rem;
+    line-height: 2.7rem;
+
+    &-amount {
+      font-size: 2.4rem;
+      font-weight: $fontBold;
+    }
+  }
+}
+
+.bars-section {
+  background-color: $veryPaleOrange;
+  padding: 0.9rem 1.4rem;
+  border-radius: 0.58rem;
+
+  &__title {
+    font-size: 2.39rem;
+    margin-left: 0.85rem;
+    color: $darkBrown;
+    margin-bottom: 0;
+  }
+
+  &__bars-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 0.9rem;
+    cursor: pointer;
+  }
+
+  &__progress-bar {
+    background-color: $softRed;
+    height: 15rem;
+    border-radius: 0.6rem;
+    width: 100%;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__bottom-line {
+    width: 94%;
+    height: 0.15rem;
+    border: none;
+    background-color: $cream;
+  }
+
+  &__price {
+    margin-top: 0.8rem;
+    margin-bottom: 0.7rem;
+    opacity: 0;
+    font-size: 1.3rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    background-color: $darkBrown;
+    color: $veryPaleOrange;
+  }
+
+  &__day {
+    color: $mediumBrown;
+    font-size: 1.2rem;
+  }
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.7rem;
+
+  &__total-amount {
+    font-size: 1.52rem;
+    line-height: 3.2rem;
+    color: $mediumBrown;
+  }
+
+  &__amount {
+    font-size: 3rem;
+    font-weight: $fontBold;
+    color: $darkBrown;
+  }
+
+  &__percentage {
+    font-size: 1.6rem;
+    text-align: end;
+    line-height: 2rem;
+    font-weight: $fontBold;
+    margin-top: 4.2rem;
+    color: $darkBrown;
+  }
+
+  &__month-info {
+    color: $mediumBrown;
+    font-weight: $fontRegular;
+    font-size: 1.52rem;
+  }
+}
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.attribution a {
+  color: $softRed;
+}
